@@ -1,4 +1,3 @@
-import React from 'react';
 import style from "./BlockItem.module.scss"
 
 const BlockItem = ({ name, descr }) => {
