@@ -58,7 +58,6 @@ body {
 
 .conditions__title {
   margin-bottom: 15px;
-  font-feature-settings: 'clig' off, 'liga' off;
   font-family: 'Roboto Condensed';
   font-size: 36px;
   font-weight: 700;
@@ -100,8 +99,8 @@ body {
   justify-content: center;
   padding: 22px;
   border-radius: 5px;
-  border: 1px solid var(--base-gray-0, #EDEDED);
-  background: var(--white-white-10, #F7F7F7);
+  border: 1px solid #EDEDED;
+  background: #F7F7F7;
 }
 
 .conditions__item-2 {
@@ -113,8 +112,8 @@ body {
   box-sizing: border-box;
   padding: 22px;
   border-radius: 5px;
-  border: 1px solid var(--base-gray-0, #EDEDED);
-  background: var(--white-white-10, #F7F7F7);
+  border: 1px solid  #EDEDED;
+  background:  #F7F7F7;
 }
 
 .conditions__image {
@@ -124,7 +123,6 @@ body {
 }
 
 .conditions__item-title {
-  position: relative;
   padding-bottom: 15px;
   font-family: 'Source Sans 3';
   font-size: 18px;

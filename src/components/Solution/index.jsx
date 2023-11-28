@@ -1,4 +1,3 @@
-
 import Blocks from "../Blocks";
 
 const Solution = () => {
