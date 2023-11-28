@@ -1,0 +1,19 @@
+/* Reset and base styles  */
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  outline: none;
+  border: none;
+  font-family: 'Open Sans','Darker Grotesque', sans-serif;
+}
+
+/* Links */
+
+a, a:link, a:visited  {
+  text-decoration: none;
+}
+
+a:hover  {
+  text-decoration: none;
+}

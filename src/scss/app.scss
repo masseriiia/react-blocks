@@ -1,0 +1,33 @@
+@import './libs/normalize';
+
+body {
+  background: #F9F9FA;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1410px;
+}
+
+.solition-block {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.app-span {
+  margin-bottom: 22px;
+  display: block;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+
+  background: var(--gradients-pink-100-text, linear-gradient(90deg, #4343FF 0%, #F96D6D 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
