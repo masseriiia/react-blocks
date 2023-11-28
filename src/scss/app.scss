@@ -10,19 +10,16 @@ body {
   max-width: 1410px;
 }
 
-.wrapper {
+.conditions {
+  padding-top: 60px;
+  padding-bottom: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 60px;
 }
 
-.information {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-.conditions {
+.conditions__inner {
   width: 470px;
 }
 
@@ -51,15 +48,20 @@ body {
   gap: 15px;
 }
 
-.programs__blocks {
+.conditions__blocks {
   display: flex;
   flex-direction: row;
   gap: 15px;
 }
 
-.programs__item-1 {
+.conditions__first-block {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.conditions__item-1 {
   width: 220px;
-  margin-bottom: 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -69,28 +71,28 @@ body {
   background: var(--white-white-10, #F7F7F7);
 }
 
-.programs__item-2 {
+.conditions__item-2 {
   width: 220px;
-  height: 358px;
-  margin-bottom: 15px;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  box-sizing: border-box;
   padding: 22px;
   border-radius: 5px;
   border: 1px solid var(--base-gray-0, #EDEDED);
   background: var(--white-white-10, #F7F7F7);
 }
 
-.programs__image {
+.conditions__image {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 10px;
 }
 
-.programs__item-title {
+.conditions__item-title {
   position: relative;
-  margin-bottom: 15px;
+  padding-bottom: 15px;
   font-family: 'Source Sans 3';
   font-size: 18px;
   font-style: normal;
@@ -99,29 +101,16 @@ body {
   color: #56565A;
   text-align: center;
   font-feature-settings: 'clig' off, 'liga' off;
-
-  &::after {
-    content: "";
-    position: absolute;
-    display: block;
-    bottom: -40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 170px;
-    height: 1px;
-    background-color: #E5E5E5;
-  }
+  border-bottom: 1px solid #E5E5E5;
 }
 
-.programs__item-descr {
+.conditions__item-descr {
   margin-top: 15px;
   font-family: 'Source Sans 3';
   font-size: 14px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.3;
   color: #56565A;
   text-align: center;
-  font-feature-settings: 'clig' off, 'liga' off;
 }
 
