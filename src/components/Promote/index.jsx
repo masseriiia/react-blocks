@@ -30,7 +30,7 @@ const Promote = () => {
         </p>
         <div className="promote__images">
           {dataImage.map((item) => (
-            <img key={item.id} src={item.img} alt={`Image ${item.id}`} />
+            <img key={item.id} src={item.img} alt={`Human ${item.id}`} />
           ))}
         </div>
         <h2 className="promote__title">Best picks for woman collection</h2>
