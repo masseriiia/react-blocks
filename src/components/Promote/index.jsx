@@ -14,9 +14,9 @@ const Promote = () => {
           chestnut gourd swiss chard wakame kohlrabi beetroot carrot watercress.
         </p>
         <div className="promote__images">
-          <img src={imageOne} alt="Image" />
-          <img src={imageTwo} alt="Image" />
-          <img src={imageThree} alt="Image" />
+          <img src={imageOne} alt="Image One" />
+          <img src={imageTwo} alt="Image Two" />
+          <img src={imageThree} alt="Image Two" />
         </div>
         <h2 className="promote__title">Best picks for woman collection</h2>
         <p className="promote__descr">
