@@ -3,6 +3,21 @@ import imageOne from '../../img/image-1.png';
 import imageTwo from '../../img/image-2.png';
 import imageThree from '../../img/image-3.png';
 
+const dataImage = [
+  {
+    id: 1,
+    img: imageOne,
+  },
+  {
+    id: 2,
+    img: imageTwo,
+  },
+  {
+    id: 3,
+    img: imageThree,
+  },
+];
+
 const Promote = () => {
   return (
     <section className="promote">
@@ -14,9 +29,9 @@ const Promote = () => {
           chestnut gourd swiss chard wakame kohlrabi beetroot carrot watercress.
         </p>
         <div className="promote__images">
-          <img src={imageOne} alt="Image One" />
-          <img src={imageTwo} alt="Image Two" />
-          <img src={imageThree} alt="Image Two" />
+          {dataImage.map((item) => (
+            <img key={item.id} src={item.img} alt={`Image ${item.id}`} />
+          ))}
         </div>
         <h2 className="promote__title">Best picks for woman collection</h2>
         <p className="promote__descr">
