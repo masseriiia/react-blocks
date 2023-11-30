@@ -4,7 +4,7 @@
   margin-bottom: 80px;
   padding: 24px 32px;
   border-radius: 5px;
-  background: var(--white, #FFF);
+  background: #FFF;
 }
 
 .progress__span {
@@ -36,7 +36,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
 .progress__type-info {
@@ -59,7 +58,6 @@
   color: #77BB2F;
   font-family: 'Open Sans';
   font-size: 16px;
-  font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
