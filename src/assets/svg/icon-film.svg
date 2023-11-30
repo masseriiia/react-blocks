@@ -1,0 +1,17 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon-film" clip-path="url(#clip0_3_770)">
+<path id="Vector" d="M13.2133 1.33325H2.78665C1.98399 1.33325 1.33331 1.98393 1.33331 2.78659V13.2133C1.33331 14.0159 1.98399 14.6666 2.78665 14.6666H13.2133C14.016 14.6666 14.6666 14.0159 14.6666 13.2133V2.78659C14.6666 1.98393 14.016 1.33325 13.2133 1.33325Z" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M4.66669 1.33325V14.6666" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M11.3333 1.33325V14.6666" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M1.33331 8H14.6666" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M1.33331 4.66675H4.66665" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" d="M1.33331 11.3333H4.66665" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_7" d="M11.3333 11.3333H14.6666" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_8" d="M11.3333 4.66675H14.6666" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_3_770">
+<rect width="16" height="16" fill="white"/>
+</clipPath>
+</defs>
+</svg>
