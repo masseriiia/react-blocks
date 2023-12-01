@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "ui/ux development",
+    "description": "Lorem built ipsum dolor sit amet. Eget vestibulum volutpat id nibh felis dignissim. Aliquet porta ultrices orci metus. Ut aenean pretium. Mollis magna hac amet maecenas mauris malesuada ornare."
+  },
+  {
+    "id": 2,
+    "name": "react js development",
+    "description": "Lorem built ipsum dolor sit amet. Eget vestibulum volutpat id nibh felis dignissim. Aliquet porta ultrices orci metus. Ut aenean pretium. Mollis magna hac amet maecenas mauris."
+  },
+  {
+    "id": 3,
+    "name": "vue js development",
+    "description": "Lorem built ipsum dolor sit amet. Eget vestibulum volutpat id nibh felis dignissim. Aliquet porta ultrices orci metus. Ut aenean pretium. Mollis magna hac amet maecenas."
+  },
+  {
+    "id": 4,
+    "name": "node js development",
+    "description": "Lorem built ipsum dolor sit amet. Eget vestibulum volutpat id nibh felis dignissim. Aliquet porta ultrices orci metus. Ut aenean pretium. Mollis magna hac amet maecenas mauris malesuada ornare."
+  },
+  {
+    "id": 5,
+    "name": "full stack development",
+    "description": "Lorem built ipsum dolor sit amet. Eget vestibulum volutpat id nibh felis dignissim. Aliquet porta ultrices orci metus. Ut aenean pretium. Mollis magna hac amet maecenas mauris."
+  },
+  {
+    "id": 6,
+    "name": "javascript development",
+    "description": "Lorem built ipsum dolor sit amet. Eget vestibulum volutpat id nibh felis dignissim. Aliquet porta ultrices orci metus. Ut aenean pretium. Mollis magna hac amet maecenas."
+  }
+]
